@@ -1,4 +1,4 @@
--- 1. OS Lifecycle Status (Bölüm 10)
+-- 1. OS Lifecycle Status (BÃ¶lÃ¼m 10)
 CREATE TABLE IF NOT EXISTS os_lifecycle_status (
     id SERIAL PRIMARY KEY,
     hostname TEXT,
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS os_lifecycle_status (
     description TEXT
 );
 
--- 2. User Inventory (Bölüm 11)
+-- 2. User Inventory (BÃ¶lÃ¼m 11)
 CREATE TABLE IF NOT EXISTS user_inventory (
     id SERIAL PRIMARY KEY,
     hostname TEXT,
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS log_summary (
     warn_count INTEGER
 );
 
--- 7. Top Events (Hata Kayıtları)
+-- 7. Top Events (Hata KayÃ½tlarÃ½)
 CREATE TABLE IF NOT EXISTS top_events (
     id SERIAL PRIMARY KEY,
     hostname TEXT,
@@ -112,8 +112,8 @@ CREATE TABLE IF NOT EXISTS open_ports (
     protocol TEXT
 );
 
--- 12. Open Ports Netstat (Detaylı - PID/PNAME)
--- NOT: Scriptte yaşadığın 'null' hatalarını önlemek için sütunları esnek tuttum.
+-- 12. Open Ports Netstat (DetaylÃ½ - PID/PNAME)
+-- NOT: Scriptte yaÃ¾adÃ½Ã°Ã½n 'null' hatalarÃ½nÃ½ Ã¶nlemek iÃ§in sÃ¼tunlarÃ½ esnek tuttum.
 CREATE TABLE IF NOT EXISTS open_ports_netstat (
     id SERIAL PRIMARY KEY,
     hostname TEXT,
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS open_ports_netstat (
     process_name TEXT NULL
 );
 
--- 13. Disk History (Kapasite Tahminleme İçin - Yeni İstek)
+-- 13. Disk History (Kapasite Tahminleme ÃÃ§in - Yeni Ãstek)
 CREATE TABLE IF NOT EXISTS disk_history (
     id SERIAL PRIMARY KEY,
     hostname TEXT,
