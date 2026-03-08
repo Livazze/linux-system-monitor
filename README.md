@@ -27,3 +27,16 @@ Eğer belirli zaman aralıklarında (örneğin her dakikada bir) çalışmasın�
 2. En alta şu satırı ekleyin:
 
    `* * * * * /bin/bash /path/to/monitor.sh`
+
+   ## System Screenshots
+
+![Screenshot1](WhatsApp Image 2026-03-08 at 18.03.55.jpeg)
+
+![Screenshot2](WhatsApp Image 2026-03-08 at 18.03.55 (1).jpeg)
+
+![Screenshot3](WhatsApp Image 2026-03-08 at 18.03.55 (2).jpeg)
+
+![Screenshot4](WhatsApp Image 2026-03-08 at 18.03.55 (3).jpeg)
+
+![Screenshot5](WhatsApp Image 2026-03-08 at 18.03.55 (4).jpeg)
+
